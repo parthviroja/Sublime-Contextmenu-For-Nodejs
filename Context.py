@@ -15,16 +15,6 @@ class RunTerminalCommand(sublime_plugin.TextCommand):
 		thread = subprocess.Popen(cmd,shell=False,cwd=current_directory)
 		thread.daemon = True
 
-class RunGitAddAllCommand(sublime_plugin.TextCommand):
-	def run(self, edit):
-		path = self.view.file_name().split("\\")
-		#current_driver = path[0]
-		file = path.pop()
-		current_directory="\\".join(path)
-		cmd = ['cmd','/k git add --all']
-		thread = subprocess.Popen(cmd,shell=False,cwd=current_directory)
-		thread.daemon = True
-
 class RunNodeCommand(sublime_plugin.TextCommand,):
 	def run(self, edit):
 		path = self.view.file_name().split("\\")

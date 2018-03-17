@@ -4,10 +4,6 @@
 		"command":"run_terminal"
 	},
 	{
-		"caption":"Git Add All",
-		"command":"run_git_add_all"
-	},
-	{
 		"caption":"Open Node",
 		"command":"run_node",
 		"selector": ["source.js","source.json"],
