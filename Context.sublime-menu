@@ -1,0 +1,40 @@
+[
+	{
+		"caption":"Open Terminal",
+		"command":"run_terminal"
+	},
+	{
+		"caption":"Git Add All",
+		"command":"run_git_add_all"
+	},
+	{
+		"caption":"Open Node",
+		"command":"run_node",
+		"selector": ["source.js","source.json"],
+	},
+	{
+		"caption":"Open Nodemon",
+		"command":"run_nodemon",
+		"selector": "source.js",
+	},{
+		"caption":"Open NW",
+		"command":"run_nw"
+	},
+	{
+		"caption":"Open Grunt",
+		"command":"run_grunt",
+		"selector": "source.js",
+	},
+	{
+		"caption":"Open Mongo",
+		"command":"run_mongo"
+	},
+	{
+		"caption":"Open Json Server",
+		"command":"run_json_server"
+	},
+	{
+		"caption":"Open Notepad",
+		"command":"run_notepad"
+	}
+]
